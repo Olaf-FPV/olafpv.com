@@ -1,0 +1,48 @@
+.page-block {
+    height: 700px;
+}
+
+#welcome {
+    overflow: hidden;
+    height: 800px;
+}
+#welcome .image-box {
+    background-image: url(/assets/images/quad.jpg);
+    background-position-x: 6rem;
+    background-position-y: -2rem;
+    background-repeat: repeat;
+    background-size: cover;
+    transform: scale(1.1);
+    height: 800px;
+    position: relative;
+}
+#welcome .content {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    padding: 5% 0;
+    font-weight: bolder;
+}
+#welcome .text-area {
+    width: 35%;
+}
+#welcome .content .title {
+    font-size: 3em;
+}
+
+#olafc .columns {
+    height: 100%;
+}
+#olafc .horizontal-center {
+    justify-content: flex-end;
+}
+#olafc img {
+    width: 70%;
+}
+
+#vtxassassin .horizontal-center {
+    justify-content: start;
+}
+#vtxassassin img {
+    width: 60%;
+}

@@ -1,3 +1,46 @@
 html, body {
     font-family: "IBM Plex Mono", Arial;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-start a {
+    padding: 0.5rem 2rem;
+}
+
+.navbar-end {
+    font-size: 1.2em;
+}
+
+.button {
+    font-weight: bolder;
+}
+
+.vertical-center {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+}
+
+.horizontal-center {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 100%;
+}
+
+.footer {
+    padding: 3rem 1.5rem;
+}
+
+.link {
+    color: white;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: lightgray;
 }
