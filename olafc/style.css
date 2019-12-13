@@ -1,0 +1,27 @@
+#welcome {
+    margin: 50px;
+    margin-bottom: 150px;
+}
+
+#features {
+    flex-direction: column;
+}
+#features p {
+   width: 50%; 
+}
+
+#features-area {
+    margin-top: 70px;
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature .image {
+    width: 50%;
+}
+.feature .pad {
+    padding-right: 10%;
+}

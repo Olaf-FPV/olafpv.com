@@ -7,7 +7,6 @@ html, body {
 .navbar-start a {
     padding: 0.5rem 2rem;
 }
-
 .navbar-end {
     font-size: 1.2em;
 }
@@ -26,10 +25,6 @@ html, body {
 .horizontal-center {
     display: flex;
     justify-content: center;
-}
-
-.container {
-    height: 100%;
 }
 
 .footer {
