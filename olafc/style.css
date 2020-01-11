@@ -1,10 +1,11 @@
 #welcome {
-    margin: 50px;
-    margin-bottom: 150px;
+    margin-top: 10em;
+    margin-bottom: 10em;
 }
 
 #features {
     flex-direction: column;
+    padding-top: 3em;
 }
 #features p {
    width: 50%; 
@@ -16,12 +17,16 @@
 
 .feature {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    padding-bottom: 3em;
 }
-.feature .image {
-    width: 50%;
+.feature .ola-image img {
+    width: 450px;
 }
 .feature .pad {
     padding-right: 10%;
+}
+.feature .desc {
+    max-width: 30em;
 }

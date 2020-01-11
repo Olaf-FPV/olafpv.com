@@ -3,40 +3,48 @@ layout: default
 ---
 
 <div class="container">
-    <div id="welcome" class="columns">
+    <div id="welcome" class="container columns">
         <div class="column is-one-half">
-            <span class="title">Welcome to OlaFC: the flight controller for everyone.</span>
-            <br />
-            <br />
-            <span class="subtitle">We made the world's first 20x20-mounting, one-sided flight controller. With large
-                soldering pads and optional 30x30 mounting, it's built for all skill levels.</span>
-            <br />
-            <br />
-            <a class="button is-dark" href="#specs">View Features ></a>
-            <a class="button is-dark" href="#buy">Where to Buy ></a>
+            <div class="vertical-center">
+                <div>
+                    <span class="title">Welcome to OlaFC: the flight controller for everyone.</span>
+                    <br />
+                    <br />
+                    <span class="subtitle">We made the world's first one-sided, 20x20-mounting flight controller. With
+                        large
+                        soldering pads and optional 30x30 mounting, it's built for all skill levels.</span>
+                    <br />
+                    <br />
+                    <a class="button is-dark" href="#specs">View Features ></a>
+                    <a class="button is-dark" href="#buy">Where to Buy ></a>
+                </div>
+            </div>
+
         </div>
         <div class="column">
-            <img src="/assets/images/olafc-3d.png">
+            <div class="horizontal-center">
+                <img src="/assets/images/olafc.png" width="400">
+            </div>
         </div>
     </div>
-    <div id="features" class="has-text-centered">
+</div>
+<div class="alt-color">
+    <div id="features" class="has-text-centered container">
         <span class="title is-4">Features</span>
         <br />
         <br />
         <div class="horizontal-center">
-            <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
-                Blah
-                Blah Blah Blah Blah Blah</p>
+            <p>OlaFC was developed from the ground up in the United States of America to provide the most diverse set of features in the smallest form-factor. All of this with superb reliability.</p>
         </div>
     </div>
-    <div id="features-area">
+    <div id="features-area" class="container">
         <div class="feature">
-            <div class="image pad">
+            <div class="ola-image pad">
                 <img src="/assets/images/olafc-pads.png">
             </div>
             <div class="desc">
                 <span class="title is-5">Large soldering pads</span>
-                <p>Allows for easy soldering.</p>
+                <p>Allows for easy soldering. No more killing your flight controller via solder bridges.</p>
             </div>
         </div>
         <div class="feature">
@@ -44,8 +52,17 @@ layout: default
                 <span class="title is-5">30x30 or 20x20 mounting</span>
                 <p>It's your choice. Break off the tabs to fully utilize the 20x20 mounting system.</p>
             </div>
-            <div class="image">
+            <div class="ola-image">
                 <img src="/assets/images/olafc-30x30.png">
+            </div>
+        </div>
+        <div class="feature">
+            <div class="ola-image pad">
+                <img src="/assets/images/olafc-one-sided.png">
+            </div>
+            <div class="desc">
+                <span class="title is-5">One-sided board</span>
+                <p>Allows for easy mounting of components on the flight controller, making builds clean.</p>
             </div>
         </div>
     </div>
