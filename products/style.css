@@ -27,7 +27,7 @@
 }
 
 .where-to-buy {
-    margin-bottom: 5em;
+    margin-bottom: 6em;
 }
 .where-to-buy .column {
     padding: 1.5em;
@@ -81,4 +81,13 @@
 .where-to-buy .column h1:hover,
 .where-to-buy .column .wholesaler-link:hover {
     color: #757575;
+}
+
+.tech-specs {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6em;
+}
+.tech-specs .columns {
+    width: 40%;
 }
