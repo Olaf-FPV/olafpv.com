@@ -26,9 +26,10 @@
     max-width: 30em;
 }
 
-.where-to-buy {
-    margin-bottom: 6em;
+.pad-bottom {
+    padding-bottom: 7em;
 }
+
 .where-to-buy .column {
     padding: 1.5em;
     text-align: center;
@@ -86,7 +87,6 @@
 .tech-specs {
     display: flex;
     justify-content: center;
-    padding-bottom: 6em;
 }
 .tech-specs .columns {
     width: 40%;

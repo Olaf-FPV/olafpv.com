@@ -1,0 +1,18 @@
+#content {
+    margin: 5em 0;
+}
+
+#team-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin: 3.5em;
+}
+.card img {
+    object-fit: cover;
+}

@@ -1,0 +1,28 @@
+---
+layout: default
+title: Team
+---
+
+<div id="content">
+    <h1 class="title has-text-centered">Our Team</h1>
+    <div class="container">
+        <div id="team-area">
+            {% for person in site.data.team %}
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-1by1">
+                        <img src="{{ person.image }}" alt="{{ person.name }}">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        <span class="title is-4">{{ person.name }}</span>
+                        <br />
+                        <span class="is-6 role">{{ person.role }}</span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
