@@ -52,3 +52,8 @@ html, body {
 .lowkey-url:hover {
     color: #363636;
 }
+
+.image-olafc {
+    filter: drop-shadow(1.5px 1.5px 3px rgb(87, 87, 87));
+    width: 400px !important;
+}
