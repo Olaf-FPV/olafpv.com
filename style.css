@@ -8,9 +8,8 @@
 }
 #welcome .image-box {
     background-image: url(/assets/images/quad.jpg);
-    background-position-x: 6rem;
-    background-position-y: -2rem;
-    background-repeat: repeat;
+    background-position-x: 5em;
+    background-position-y: -2em;
     background-size: cover;
     transform: scale(1.1);
     height: 800px;
@@ -45,4 +44,10 @@
 }
 #vtxassassin img {
     width: 60%;
+}
+
+#welcome .container,
+#olafc .container,
+#vtxassassin .container {
+    padding: 0 0.5em;
 }

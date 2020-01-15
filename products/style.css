@@ -91,6 +91,7 @@
 .tech-specs {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .tech-specs .columns {
     width: 40%;
