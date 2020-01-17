@@ -28,13 +28,18 @@
     font-size: 3em;
 }
 
-#product-area {
-    display: flex;
-    justify-content: center;
+#products-area .columns {
+    justify-content: space-between;
+    height: 100%;
 }
 
-#olafc .columns {
-    height: 100%;
+@media screen and (max-width: 1087px) {
+    #products-area .columns {
+        justify-content: center;
+    }
+    #products-area .text-area {
+        width: 25em;
+    }
 }
 
 #welcome .container,
