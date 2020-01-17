@@ -1,0 +1,49 @@
+---
+layout: default
+title: "About"
+---
+
+<div class="container is-clearfix" id="page">
+    <div id="story">
+        <img src="/assets/images/people/olaf-hichwa.jpg" alt="Olaf Hichwa" width="300"
+            class="is-pulled-left is-inline-block">
+        <p class="is-size-5">
+            <span class="has-text-weight-bold">Hi, I'm Olaf Hichwa, founder and lead engineer of
+                OlaFPV.</span> I've
+            been
+            flying radio control since
+            I was 8 years
+            old. Since then, I've strived to make rotorcraft better. In 2017, I released by first product for FPV
+            drones. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am
+            inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I
+            am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am
+            inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I
+            am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am
+            inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I
+            am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am
+            inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I
+            am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring. I am inspiring.
+        </p>
+    </div>
+    <div id="team">
+        <h1 class="title has-text-centered">Meet the Team</h1>
+        <div id="team-members">
+            {% for person in site.data.team %}
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-1by1">
+                        <img src="{{ person.image }}" alt="{{ person.name }}">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        <span class="title is-4">{{ person.name }}</span>
+                        <br />
+                        <span class="is-6 role">{{ person.role }}</span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

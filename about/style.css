@@ -1,8 +1,18 @@
-#content {
-    margin: 5em 0;
+#page {
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
-#team-area {
+#story img {
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+#team {
+    margin-top: 5em;
+}
+
+#team-members {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

@@ -10,6 +10,11 @@
         "image": "/assets/images/people/wesley-smith.jpg"
     },
     {
+        "name": "Gabe Zwillinger",
+        "role": "Graphic Designer",
+        "image": "/assets/images/people/gabriel-zwillinger.jpg"
+    },
+    {
         "name": "Bot McBoi",
         "role": "Pilot",
         "image": "/assets/images/people/bot-mcboi.jpg"
