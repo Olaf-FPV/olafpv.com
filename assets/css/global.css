@@ -1,7 +1,10 @@
 html, body {
-    font-family: "IBM Plex Mono", Arial;
     height: 100%;
     width: 100%;
+}
+
+* {
+    font-family: "IBM Plex Mono", Arial !important;
 }
 
 .navbar-start a {
@@ -56,4 +59,9 @@ html, body {
 .image-olafc {
     filter: drop-shadow(1.5px 1.5px 3px rgb(87, 87, 87));
     width: 400px !important;
+}
+
+.top-bottom-margin {
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
