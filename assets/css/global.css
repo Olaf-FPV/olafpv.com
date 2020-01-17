@@ -7,6 +7,10 @@ html, body {
     font-family: "IBM Plex Mono", Arial !important;
 }
 
+img {
+    max-width: 100vw !important;
+}
+
 .navbar-start a {
     padding: 0.5rem 2rem;
 }
