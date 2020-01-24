@@ -96,3 +96,11 @@
 .tech-specs .columns {
     width: 40%;
 }
+
+.main-product-image {
+    min-width: 20vh;
+}
+
+.columns {
+    flex-wrap: wrap;
+}
