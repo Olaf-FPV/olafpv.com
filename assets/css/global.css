@@ -7,10 +7,6 @@ html, body {
     font-family: "IBM Plex Mono", Arial !important;
 }
 
-img {
-    max-width: 100vw !important;
-}
-
 .navbar-start a {
     padding: 0.5rem 2rem;
 }
@@ -62,10 +58,13 @@ img {
 
 .image-olafc {
     filter: drop-shadow(1.5px 1.5px 3px rgb(87, 87, 87));
-    width: 400px !important;
 }
 
 .top-bottom-margin {
     margin-top: 5em;
     margin-bottom: 5em;
+}
+
+.space-between {
+    justify-content: space-between;
 }
